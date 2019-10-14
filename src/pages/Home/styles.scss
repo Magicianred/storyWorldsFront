@@ -1,3 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash&display=swap');
+
 .welcome {
-  color: cadetblue;
+  font-family: 'Berkshire Swash', cursive;
+}
+
+.loginForm {
+
+  label {
+    display: inline-block;
+    min-width: 110px;
+    margin-right: 10px;
+  }
+
+  input {
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    height: 45px;
+    padding: 0 15px;
+    min-width: 350px;
+  }
+
+  input::placeholder {
+    color: #cccccc;
+  }
 }
