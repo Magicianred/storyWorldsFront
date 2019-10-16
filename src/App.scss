@@ -14,7 +14,7 @@ body,
 }
 
 body {
-  background-color: #B1A58B;
+  background-color: #b1a58b;
   background: url('./assets/paper.png') no-repeat;
   background-size: cover;
   -webkit-font-smoothing: antialiased !important;
@@ -27,7 +27,7 @@ input,
 button {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: calc(10px + 2vmin);
-  color: #B1A58B;
+  color: #b1a58b;
 }
 
 .container {
@@ -44,7 +44,7 @@ button {
 .content {
   max-width: 600px;
   width: 100%;
-  background: #F9EBCE;
+  background: #f9ebce;
   margin-top: 50px;
   border-radius: 4px;
   padding: 30px;
@@ -54,9 +54,9 @@ button {
   width: 100%;
   margin-top: 20px;
   padding: 10px;
-  background-color: #B1A58B;
-  color: #F9EBCE;
-  border: 1px #B1A58B solid;
+  background-color: #b1a58b;
+  color: #f9ebce;
+  border: 1px #b1a58b solid;
   border-radius: 5px;
   cursor: pointer;
 

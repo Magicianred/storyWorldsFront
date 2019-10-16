@@ -1,3 +1,27 @@
 .universe {
-    
+  background: url('../../assets/universe.png') no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding: 20px;
+
+  .grid {
+    margin: 60px;
+    display: grid;
+    grid-template-columns: 1fr 0.3fr 1fr;
+
+    .book {
+      background: #f9ebce;
+      max-width: 350px;
+      padding: 10px;
+
+      img {
+        max-width: 110px;
+        max-height: 110px;
+      }
+
+      p {
+        margin: 10px auto;
+      }
+    }
+  }
 }
