@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -66,4 +68,14 @@ button {
     background-color: rgba(177, 165, 139, 0.5);
     border-color: rgba(177, 165, 139, 0.5);
   }
+}
+
+.welcome {
+  font-family: 'Berkshire Swash', cursive;
+}
+
+.warming {
+  display: inline-block;
+  color: rgba(255, 50, 10, 0.9);
+  margin-bottom: 15px;
 }
